@@ -15,7 +15,7 @@ const Plot = ({ position, size, landId, landInfo, setLandName, setLandOwner, set
     return (
         <mesh position={position} onClick={clickHandler}>
             <planeBufferGeometry attach="geometry" args={size} />
-            <meshStandardMaterial color={"#11E169"} metalness={0.5} roughness={0} />
+            <meshStandardMaterial color={"#FFFFFF"} metalness={0.5} roughness={0} />
         </mesh>
     );
 }

@@ -28,11 +28,50 @@ contract Land is ERC721 {
     ) ERC721(_name, _symbol) {
         cost = _cost;
 
-        buildings.push(Building("City Hall", address(0x0), 0, 0, 0, 10, 10, 10));
-        buildings.push(Building("Stadium", address(0x0), 0, 10, 0, 10, 5, 3));
-        buildings.push(Building("University", address(0x0), 0, -10, 0, 10, 5, 3));
-        buildings.push(Building("Shopping Plaza 1", address(0x0), 10, 0, 0, 5, 25, 5));
-        buildings.push(Building("Shopping Plaza 2", address(0x0), -10, 0, 0, 5, 25, 5));
+        buildings.push(Building("B1", address(0x0), -25, -35, 0, 10, 10, 10));
+        buildings.push(Building("D1", address(0x0), -5, -35, 0, 10, 10, 10));
+        buildings.push(Building("F1", address(0x0), 15, -35, 0, 10, 10, 10));
+        buildings.push(Building("H1", address(0x0), 35, -35, 0, 10, 10, 10));
+
+        buildings.push(Building("A2", address(0x0), -35, -25, 0, 10, 10, 10));
+        buildings.push(Building("C2", address(0x0), -15, -25, 0, 10, 10, 10));
+        buildings.push(Building("E2", address(0x0), 5, -25, 0, 10, 10, 10));
+        buildings.push(Building("G2", address(0x0), 25, -25, 0, 10, 10, 10));
+
+        buildings.push(Building("B3", address(0x0), -25, -15, 0, 10, 10, 10));
+        buildings.push(Building("D3", address(0x0), -5, -15, 0, 10, 10, 10));
+        buildings.push(Building("F3", address(0x0), 15, -15, 0, 10, 10, 10));
+        buildings.push(Building("H3", address(0x0), 35, -15, 0, 10, 10, 10));
+
+        buildings.push(Building("A4", address(0x0), -35, -5, 0, 10, 10, 10));
+        buildings.push(Building("C4", address(0x0), -15, -5, 0, 10, 10, 10));
+        buildings.push(Building("E4", address(0x0), 5, -5, 0, 10, 10, 10));
+        buildings.push(Building("G4", address(0x0), 25, -5, 0, 10, 10, 10));
+
+        buildings.push(Building("B5", address(0x0), -25, 5, 0, 10, 10, 10));
+        buildings.push(Building("D5", address(0x0), -5, 5, 0, 10, 10, 10));
+        buildings.push(Building("F5", address(0x0), 15, 5, 0, 10, 10, 10));
+        buildings.push(Building("H5", address(0x0), 35, 5, 0, 10, 10, 10));
+
+        buildings.push(Building("A6", address(0x0), -35, 15, 0, 10, 10, 10));
+        buildings.push(Building("C6", address(0x0), -15, 15, 0, 10, 10, 10));
+        buildings.push(Building("E6", address(0x0), 5, 15, 0, 10, 10, 10));
+        buildings.push(Building("G6", address(0x0), 25, 15, 0, 10, 10, 10));
+
+        buildings.push(Building("B7", address(0x0), -25, 25, 0, 10, 10, 10));
+        buildings.push(Building("D7", address(0x0), -5, 25, 0, 10, 10, 10));
+        buildings.push(Building("F7", address(0x0), 15, 25, 0, 10, 10, 10));
+        buildings.push(Building("H7", address(0x0), 35, 25, 0, 10, 10, 10));
+
+        buildings.push(Building("A8", address(0x0), -35, 35, 0, 10, 10, 10));
+        buildings.push(Building("C8", address(0x0), -15, 35, 0, 10, 10, 10));
+        buildings.push(Building("E8", address(0x0), 5, 35, 0, 10, 10, 10));
+        buildings.push(Building("G8", address(0x0), 25, 35, 0, 10, 10, 10));
+
+        // buildings.push(Building("Stadium", address(0x0), 0, 10, 0, 10, 5, 3));
+        // buildings.push(Building("University", address(0x0), 0, -10, 0, 10, 5, 3));
+        // buildings.push(Building("Shopping Plaza 1", address(0x0), 10, 0, 0, 5, 25, 5));
+        // buildings.push(Building("Shopping Plaza 2", address(0x0), -10, 0, 0, 5, 25, 5));
     }
 
     function mint(uint256 _id) public payable {

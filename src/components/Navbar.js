@@ -4,7 +4,7 @@ const Navbar = ({ web3Handler, account }) => {
     return (
         <nav className="flex-between">
                 <img src={logo} className="App-logo" alt="logo" />
-                Metaverse v.1
+                Metaverse v.2 - Chess board
 
             {account ? (
                 <a
