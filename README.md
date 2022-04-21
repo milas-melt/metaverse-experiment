@@ -1,4 +1,4 @@
-# Metaverse Tutorial
+# Metaverse v1 (based on Dapp University tutorial)
 
 ## Technology Stack & Tools
 
@@ -24,11 +24,14 @@
 ### 2. Install Dependencies:
 `$ npm install `
 
-### 3. Migrate Smart Contracts
+### 3. Connect to Ganache
+`$ ganache-cli`
+
+### 4. Migrate Smart Contracts
 `$ truffle migrate --reset`
 
-### 4. Test Smart Contracts
+### 5. Test Smart Contracts
 `$ truffle test`
 
-### 5. Start Frontend
+### 6. Start Frontend
 `$ npm start`
