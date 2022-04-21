@@ -1,4 +1,6 @@
-# Metaverse v1 (based on Dapp University tutorial)
+# Metaverse experiments
+v.1 - based on Dapp university tutorial.
+v.2 - chess board
 
 ## Technology Stack & Tools
 
