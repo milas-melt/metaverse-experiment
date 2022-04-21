@@ -1,6 +1,6 @@
 # Metaverse experiments
 - v.1 - based on Dapp university tutorial.
-- v.2 - chess board
+- v.2 - chess board.
 
 ## Technology Stack & Tools
 
